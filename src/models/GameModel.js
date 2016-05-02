@@ -1,7 +1,6 @@
 import BaseModel from './BaseModel';
-
-class GameModel extends Base.Model {
-  defaults (){
+class GameModel extends BaseModel {
+  defaults() {
     return {
       playerOne: null,
       playerTwo: null,
@@ -10,10 +9,8 @@ class GameModel extends Base.Model {
       winner: null
     };
   }
-
-  costructor(){
+  constructor() {
     super('game');
   }
 }
-
-export default GameModel
+export default GameModel;
