@@ -54,6 +54,10 @@
     "feathers-client": "^1.2.0",
     "react": "0.14.3",
     "react-dom": "0.14.3",
+    "socket.io": "^1.4.5",
+    "socket.io-adapter": "^0.4.0",
+    "socket.io-client": "^1.4.5",
+    "socket.io-parser": "^2.2.6",
     "socketio": "^1.0.0"
   }
 }
